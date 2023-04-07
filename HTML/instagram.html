@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <title>Instagram</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Roboto", sans-serif;
+        }
+        .container{
+           
+            width:100%;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .center{
+            width: 350px;
+            border: 1px solid rgb(195, 195, 196);
+            border-radius: 4px;
+        }
+        .img{
+            width: 250px;
+            height: 190px
+        }
+        .center .header{
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+            margin-bottom: 17px;
+        }
+        .center .input{
+            justify-content: center;
+            display: flex;
+            flex-direction: column;
+            margin: 0px 37px 0px 37px; 
+        } 
+        .input .input-text{
+            padding: 10px;
+            font-size: 12px;
+            margin-top: 10px;
+        }
+        .input-text:focus{
+            outline: gray;
+        }
+        .input-button{
+            background-color: rgb(5, 117, 223);
+            color: #fff;
+            font-size: 12px;
+            padding: 8px;
+            border-radius: 4px;
+            margin-bottom: 12px;
+            margin-top: 12px;
+            border: none;
+        }
+        .line{
+            display: flex;
+            margin-top: 7px;
+        }
+        .arrow{
+            background-color: gray;
+            height: 1px;
+            width: 140px;
+        }
+        .content{
+            color: gray;
+            margin-top: -8px;
+            margin-left: 4px;
+            margin-right: 4px;
+        }
+        .social-icon{
+            margin: auto;
+            margin-top: 10px;
+            margin-bottom: 15px;
+        }
+        .social-icon i{
+            padding: 5px;
+            color: rgb(0, 55, 107);
+        }
+        .social-icon span{
+            color: rgb(0, 55, 107);
+            font-size: 14px;
+            font-weight: 600;
+        }
+        .forgotpswd{
+            margin:auto;
+            color: rgb(3, 66, 124);
+            margin-bottom: 26px;
+        }
+        .footer{
+            margin-top: 30px;
+            border-radius: 1px solid rgb(195, 195, 195);
+            padding: 20px;
+            width: 350px;
+            text-align: center;
+        }
+        .footer span{
+            color: rgb(53, 53, 207);
+            font-weight: 400;
+            text-decoration: none;
+
+        }
+        .footer span a{
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="center">
+            <div class="header">
+                <img class="img" src="C:\Users\ELCOT\Desktop\Ajith Codes\project\image\Instagram-Logo.webp">
+            </div>
+            <div class="input">
+                <input type="text" class="input-text" placeholder="Phone number, email or username">
+                <input type="password" class="input-text" placeholder="Password">
+                <input type="submit" class="input-button" value="log in">
+                <div class="line">
+                    <span class="arrow"></span>
+                    <span class="content">Or</span>
+                    <span class="arrow"></span>
+                </div>
+                <div class="social-icon">
+                    <i class="fa-brands fa-square-facebook"></i><span>Log in Facebook</span>
+                </div>
+                <div class="forgotpswd">Forgot Password?</div>
+            
+        </div>
+        <div class="footer">
+            <p>Don't have a account?<a href="#">Sign Up</a></p>
+        </div>
+    </div>
+</body>
+</html>

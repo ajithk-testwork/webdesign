@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Twitter</title>
+</head>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;0,600;0,700;1,400&display=swap');
+
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        font-family: "poppins", sans-serif;
+    }
+    body{
+        background-color:#262a2f ;
+    }
+    .login{
+        background-color: #fff;
+        padding: 20px 90px;
+        position: absolute;
+        left: 50%;
+        top: 5%;
+        transform: translate(-50%);
+        width: 500px;
+        text-align: center;
+        border-radius: 10px;
+    }
+    .logo{
+        width: 100px;
+        margin-bottom: 20px ;
+        height: auto;
+    }
+    .logo2{
+        width: 50px;
+        height: auto;
+    }
+    .logo3{
+        width: 50px;
+        height: auto;
+    }
+    .login h2{
+        margin-bottom: 20px;
+    }
+    .login button img{
+        width: 18px;
+        margin-right: 10px;
+    }
+    .login button{
+        width: 100%;
+        padding: 10px 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: transparent;
+        margin: 20px 0;
+        border-radius: 30px;
+        font-weight: 500;
+        cursor: pointer;
+        border: 1px solid #999;
+    }
+    .login he{
+        border: 0;
+        height: 1px;
+        background-color: #c2c2c2;
+        margin: 5px;
+    }
+    .login span{
+        display: block;
+        margin: 120px;
+        font-size: 14px;
+        background: #fff;
+        margin-top: -16px;
+    }
+    .login input{
+        width: 100%;
+        background: transparent;
+        border: 1px solid #999;
+        outline: 0;
+        padding: 15px 10px;
+        border-radius: 4px;
+        margin-bottom: 10px 0;
+    }
+    ::placeholder{
+        font-weight: 500;
+        color: #333;
+    }
+    .login form button{
+        background: #000;
+        border: 0;
+        margin-bottom: 15px;
+        color: #fff;
+    }
+    .form{
+        margin-top: -90px;
+    }
+    .login p{
+        text-align: center;
+        font-size: 14px;
+        /* margin: 40px 0 50px; */
+        color: #555; 
+    }
+    .login p a{
+        text-decoration: none;
+        color: #359cf0;
+    }
+</style>
+<body>
+    <div class="login">
+        <img src="C:\Users\ELCOT\Desktop\Ajith Codes\project\image\logo.png" class="logo">
+        <h2>Sign in to Twitter</h2>
+        <button><img class="logo2" src="C:\Users\ELCOT\Desktop\Ajith Codes\project\image\google.logo.png">Sign in with Google</button>
+        <button><img class="logo3" src="C:\Users\ELCOT\Desktop\Ajith Codes\project\image\apple.png">Sign in with Apple</button>
+        <hr>
+        <span>Or</span>
+        <form class="form" action="">
+            <input type="text" placeholder="phone, email or username">
+            <button>Next</button>
+        </form>
+        <button>Forgot Password</button>
+        <p>Don't have an account? <a href="#">Sign up</a></p>
+    </div>
+
+
+
+
+</body>
+</html>
